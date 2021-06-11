@@ -15,7 +15,6 @@ ul {
       margin: 0;
 }
 
-/* HEADER */
 .header {
     grid-template-columns: auto 1fr auto auto;
     grid-template-areas: "logo . navbar button";
@@ -63,16 +62,12 @@ ul {
         font-weight: 700;
     }
 
-/* MAIN */
-
 .main {
     max-width: 1440px;
     margin: auto;
     padding: 0 2rem;
     box-sizing: border-box;
 }
-    /* MAINSEARCH */
-
     .search h1 {
         margin-bottom: 0.5rem;
     }
@@ -170,8 +165,6 @@ ul {
         margin-right: 1rem;
         color: #0065FC;
     }
-
-/* MAIN HOSTING */
 
 .hostingMain {
     display: grid;
@@ -273,4 +266,27 @@ ul {
     background-color: #F2F2F2;
     border-radius: 1.5rem;
     padding: 2rem;
+    }
+
+.footer {
+    background-color: #F2F2F2;
+    width: 100%;
+}
+.footerBloc {
+        display: flex;
+        max-width: 100%;
+        width: 1440px;
+        margin: auto;
+        padding: 0 2rem;
+        box-sizing: border-box;
+    }
+.footerBlocMenu {
+        width: 30%;
+        padding: 2rem 2rem;
+    }
+.footer ul {
+        display: block;
+    }
+.footer ul li {
+        margin: 1rem 0;
 }
