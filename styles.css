@@ -61,3 +61,107 @@ ul {
         color: #0065FC;
         font-weight: 700;
     }
+
+.main {
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 2rem;
+    box-sizing: border-box;
+}
+    .search h1 {
+        margin-bottom: 0.5rem;
+    }
+    .search header p {
+        margin-top: 0;
+    }
+    .search form {
+        display: inline-flex;
+        max-width: 100%;
+        overflow: auto;
+    }
+    .searchFormIcon {
+        background-color: #F2F2F2;
+        padding: 1rem 1.25rem;
+        border-radius: 1rem 0 0 1rem;
+        text-align: center;
+    }
+    .search form input {
+        border-right: none;
+        border-left: none;
+        border-top: #F2F2F2 1px solid;
+        border-bottom: #F2F2F2 1px solid;
+        padding: 0 1.5rem;
+        width: 14rem;
+        font-size: 1rem;
+        font-weight: bold;
+        font-family: "Raleway","Sans serif";
+    }
+    .search form button {
+        background-color: #0065FC;
+        color: white;
+        font-weight: bold;
+        border: none;
+        border-radius: 0 1rem 1rem 0;
+        font-family: "Raleway","Sans serif";
+        font-size: 1rem;
+        cursor: pointer;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .searchFiltres {
+        display: flex;
+        margin-top: 2rem;
+        flex-wrap: wrap;
+    }
+    .searchFiltres h2 {
+        margin: 0 2rem 1rem 0;
+        display: flex;
+        align-items: center;
+    }
+    .searchFiltres div {
+        display: flex;
+        align-items: center;
+        margin-right: 2rem;
+        border: 2px solid #d9d9d9;
+        border-radius: 2rem;
+        margin-bottom: 1rem;
+        cursor: pointer;
+        transition-duration: 0.1s;
+        font-weight: bold;
+        padding-right: 1rem;
+    }
+    .searchFiltres div:hover {
+        background-color: #F2F2F2;
+    }
+    .searchFiltres i {
+        background-color: #DEEBFF;
+        border-radius: 100%;
+        height: 3rem;
+        width: 3rem;
+        min-height: 3.5rem;
+        min-width: 3.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: -2px;
+        color: #0065FC;
+        margin-right: 1rem;
+    }
+    .searchResult {
+        display: flex;
+        align-items: center;
+        margin: 1rem 0 2rem 0;
+    }
+    .searchResultIcon {
+        height: 2rem;
+        width: 2rem;
+        min-height: 2rem;
+        min-width: 2rem;
+        border: solid 1px #d9d9d9;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 1rem;
+        color: #0065FC;
+    }
