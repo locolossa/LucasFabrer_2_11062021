@@ -165,3 +165,105 @@ ul {
         margin-right: 1rem;
         color: #0065FC;
     }
+
+.hostingMain {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+    .hostingMain header {
+        grid-column: 1/-1;
+    }
+    .hostingMain h2 {
+        margin: 0;
+    }
+    .hostingMain article,
+    .hostingPopular article {
+        background-color: white;
+        padding: 0.375rem;
+        border-radius: 1.25rem;
+        box-shadow: 0 0 16px #0000002e;
+        transition-duration: 0.1s;
+        cursor: pointer;
+        box-sizing: border-box;
+        height: 100%;
+    }
+    .hostingMain figure {
+        margin: 0;
+    }
+    .hostingMain img {
+        height: 7rem;
+        object-fit: cover;
+        max-width: 100%;
+        width: 100%;
+        max-height: 100%;
+        border-radius: 1rem 1rem 0 0;
+    }
+    .hostingMain h3,
+    .hostingPopular h3 {
+        margin: 0.25rem 0.75rem 0 0.75rem;
+    }
+    .hostingMain p,
+    .hostingPopular p {
+        margin: 0.25rem 0.75rem 0.25rem 0.75rem;
+    }
+    .hostingMain ul,
+    .hostingPopular ul {
+        margin: 0 0.75rem 0.25rem 0.75rem;
+    }
+    .fas[data-active="true"] {
+        color: #0065FC;
+    }
+    .fas[data-active="false"] {
+        color: #d9d9d9;
+    }
+    .hostingMainViewmore {
+        font-weight: bold;
+    }
+.hostingPopular {
+    padding: 2rem;
+    row-gap: 2rem;
+    display: grid;
+    align-items: start;
+    grid-template-rows: auto repeat(3,1fr);
+}
+    .hostingPopular h2 {
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .hostingPopular a {
+        display: flex;
+        align-items: stretch;
+        height: 100%;
+        overflow: auto;
+    }
+    .hostingPopular figure {
+        margin: 0;
+        position: relative;
+        min-height: 100%;
+        width: 33%;
+        min-width: 33%;
+        max-width: 33%;
+    }
+    .hostingPopular img {
+        border-radius: 1rem 0 0 1rem;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .hostingPopularwrap {
+        display: flex;
+        flex-direction: column;
+    }
+    .hostingPopulargrade {
+        flex: 1;
+    }
+.hostingMain,
+.hostingPopular {
+    background-color: #F2F2F2;
+    border-radius: 1.5rem;
+    padding: 2rem;
+}
