@@ -190,6 +190,10 @@ ul {
         box-sizing: border-box;
         height: 100%;
     }
+    .hostingMain article:hover,
+    .hostingPopular article:hover {
+        transform: scale(1.02);
+    }
     .hostingMain figure {
         margin: 0;
     }
@@ -287,6 +291,9 @@ ul {
         display: flex;
         flex-direction: column;
         transition-duration: 0.1s;
+    }
+    .activity a:hover {
+        transform: scale(1.02);
     }
     .activity h3 {
         margin: 1.2rem 1.5rem;
