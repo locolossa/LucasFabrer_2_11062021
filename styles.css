@@ -87,7 +87,7 @@ ul {
     .search header p {
         margin-top: 0;
     }
-    .search form {
+    .searchForm {
         display: inline-flex;
         max-width: 100%;
         overflow: auto;
@@ -98,28 +98,36 @@ ul {
         border-radius: 1rem 0 0 1rem;
         text-align: center;
     }
-    .search form input {
+    .searchFormIconicon {
+        margin-left: 0.1rem;
+    }
+    .searchForminput {
         border-right: none;
         border-left: none;
         border-top: #F2F2F2 1px solid;
         border-bottom: #F2F2F2 1px solid;
         padding: 0 1.5rem;
+        box-sizing: border-box;
         width: 14rem;
         font-size: 1rem;
         font-weight: bold;
-        font-family: "Raleway","Sans serif";
+        font-family: "Raleway", "Sans serif" ;
     }
-    .search form button {
+    .searchForminput::placeholder {
+        font-family: "Raleway", "Sans serif" ;
+        font-size: 1rem;
+        color: black;
+    }
+    .searchFormSubmitinput {
         background-color: #0065FC;
         color: white;
         font-weight: bold;
         border: none;
         border-radius: 0 1rem 1rem 0;
-        font-family: "Raleway","Sans serif";
+        padding: 0 1.5rem;
+        font-family: "Raleway", "Sans serif";
         font-size: 1rem;
         cursor: pointer;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
     }
 
     /*Filtres*/
@@ -420,9 +428,18 @@ ul {
         .header nav a:hover {
             border-top: none;
         }
-    
+    .searchForm {
+        display: flex;
+        width: 100%;
+    }
+    .searchForminput {
+        flex: 1;
+    }
     .searchFormButton {
         display: none;
+    }
+    .searchFormSubmiticon {
+        display: block;
     }
     
     .hostingMain,
