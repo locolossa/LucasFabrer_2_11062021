@@ -1,9 +1,11 @@
 html {
+
 /* Téléchargement de la police Raleway */
+
     font-family: 'Raleway', sans-serif;
 }
 
-/* General */
+/* Css General */
 
 body {
     margin: 0px;
@@ -210,7 +212,7 @@ ul {
         padding: 0.375rem;
         border-radius: 1.25rem;
         box-shadow: 0 0 16px #0000002e;
-        transition-duration: 0.1s;
+        transition-duration: 0.1s; /* Durée de la transition pour l'animation des images avec la pseudoclasse :hover (voir commentaire suivant) */ 
         cursor: pointer;
         box-sizing: border-box;
         height: 100%;
@@ -384,7 +386,7 @@ ul {
         margin: 1rem 0;
 }
 
-/* MEDIA QUERIES */
+/* MEDIA QUERIES (Les breakpoints utilisés ont étés choisis avec l'outil dev du navigateur Google Chrome */
 
 @media screen and (min-width: 1101px) {
     .hosting {
