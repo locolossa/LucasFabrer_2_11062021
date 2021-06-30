@@ -1,11 +1,10 @@
 html {
 
 /* Téléchargement de la police Raleway */
-
     font-family: 'Raleway', sans-serif;
 }
 
-/* Css Général (Nous utiliserons l'unité REM pour un rendu plus précis. 
+/* Css Général: Nous utiliserons l'unité REM pour un rendu plus précis. 
 En effet l'unité rem permet de définir une valeur constante tout le long du document égale à la taille de la police de l'élément racine.
 Cette unité peut être alors utilisée pour créer des éléments et propriétés CSS responsives puisque qu'elle s'adaptera à la taille de la police du support d'affichage.*/
 
@@ -442,9 +441,6 @@ ul {
     }
     .searchFormButton {
         display: none;
-    }
-    .searchFormSubmiticon {
-        display: block;
     }
     
     .hostingMain,
