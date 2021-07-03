@@ -6,7 +6,7 @@ html {
 
 /* Css Général: Nous utiliserons l'unité REM pour un rendu plus précis. 
 En effet l'unité rem permet de définir une valeur constante tout le long du document égale à la taille de la police de l'élément racine.
-Cette unité peut être alors utilisée pour créer des éléments et propriétés CSS responsives puisque qu'elle s'adaptera à la taille de la police du support d'affichage.*/
+Cette unité peut être alors utilisée pour créer des éléments et propriétés CSS responsives puisqu'elle s'adapte à la taille de la police du support d'affichage.*/
 
 body {
     margin: 0px;
@@ -376,7 +376,7 @@ a {
 /* MEDIA QUERIES (Les breakpoints utilisés ont étés choisis avec l'outil dev du navigateur Google Chrome)
    Les règles sont introduites dans le fichier css principal */
 
-   @media screen and (min-width: 1101px) {
+@media screen and (min-width: 1101px) {
     .hosting {
         display: grid;
         column-gap: 2rem;
